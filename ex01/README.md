@@ -20,4 +20,4 @@
 ## 共同開発
 
 * ペアで「共同開発」をやってみる．
-* ゼミの wiki の [共同開発のモデル](http://oyamazemi.wiki.fc2.com/wiki/共同開発のモデル) のページ参照．
+* ゼミの wiki の[共同開発のモデル](http://oyamazemi.wiki.fc2.com/wiki/共同開発のモデル)のページ参照．
