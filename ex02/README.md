@@ -4,9 +4,11 @@
 受入保留 (Deferred Acceptance) アルゴリズムを実装してみる．
 
 [Wikipedia の記事](http://ja.wikipedia.org/wiki/安定結婚問題)なり原論文
+
 * D. Gale and L.S. Shapley,
   "[College Admissions and the Stability of Marriage](http://www.jstor.org/stable/2312726),"
   American Mathematical Monthly 69 (1962), 9-15
+
 なりをよく読んでコードを書いてみる．
 
 * 最初は one-to-one (結婚のケース) でよいが，最終的には many-to-one (college admission のケース) を扱う．
