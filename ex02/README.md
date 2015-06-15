@@ -34,13 +34,11 @@
 
 ### 入力データ
 
-* `m_prefs`: `m` x `(n+1)` の2次元配列
-
+* `m_prefs`: `m` x `(n+1)` の2次元配列  
   `m_prefs[i]` には男性 `i` が好きな女性の番号が順番に並べてある．
   ただし，`n` は "unmatched" を意味する．
 
-* `f_prefs`: `n` x `(m+1)` の2次元配列
-
+* `f_prefs`: `n` x `(m+1)` の2次元配列  
   `f_prefs[j]` には女性 `j` が好きな男性の番号が順番に並べてある．
   ただし，`m` は "unmatched" を意味する．
 
@@ -50,12 +48,9 @@
 
 ### 出力データ
 
-* `m_matched`: 長さ `m` の1次元配列
-
+* `m_matched`: 長さ `m` の1次元配列  
   `m_matched[i]` は男性 `i` が match する女性の番号か `n` ("unmatched") が入る．
-
-* `f_matched`: 長さ `n` の1次元配列
-
+* `f_matched`: 長さ `n` の1次元配列  
   `f_matched[j]` は女性 `j` が match する男性の番号か `m` ("unmatched") が入る．
 
 
