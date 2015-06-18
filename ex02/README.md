@@ -78,3 +78,12 @@ python test_matching.py
 
 まずは `ERROR` が出ないようにする．
 それから `FAIL` をつぶしていく．
+
+
+## ランダム選好リスト
+
+ランダムに選好リストを生成する関数を書いたので必要があれば使ってみてください．  
+[matching_tools.py](https://github.com/oyamad/matching/blob/master/matching_tools.py)
+を作業フォルダにダウンロードする．
+
+* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/master/random_prefs.ipynb)
