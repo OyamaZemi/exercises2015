@@ -58,7 +58,8 @@
 
 テストを作ったので，それが通るようにコードを書きましょう．
 
-[test_matching.py](test_matching.py) を作業フォルダにダウンロードする．
+[test_matching.py](https://github.com/oyamad/matching/blob/master/test_matching.py)
+を作業フォルダにダウンロードする．
 前提として
 
 * 関数の名前は `deferred_acceptance`
