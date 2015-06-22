@@ -87,3 +87,8 @@ python test_matching.py
 を作業フォルダにダウンロードする．
 
 * [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/master/random_prefs.ipynb)
+
+
+## パフォーマンス比較の結果 (2015/6/22)
+
+[結果](http://nbviewer.ipython.org/github/OyamaZemi/exercises2015/blob/master/ex02/competition.ipynb)
