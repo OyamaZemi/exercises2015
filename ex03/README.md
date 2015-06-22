@@ -75,3 +75,10 @@ np.cumsum(caps, out=indptr[1:])
 ```
 
 で作ることができます．
+
+
+## 単体テスト
+
+[test_matching.py](https://github.com/oyamad/matching/blob/acbf748c1e57e76888ccb393fee4000e9bb92f10/test_matching.py)
+に多対一マッチング用のテストを加えました．
+作業フォルダにダウンロード，これが通るようにコードを書いていく．

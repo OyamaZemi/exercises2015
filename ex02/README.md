@@ -58,7 +58,7 @@
 
 テストを作ったので，それが通るようにコードを書きましょう．
 
-[test_matching.py](https://github.com/oyamad/matching/blob/master/test_matching.py)
+[test_matching.py](https://github.com/oyamad/matching/blob/45f0553515602c10bba55978211374197991c072/test_matching.py)
 を作業フォルダにダウンロードする．
 前提として
 
@@ -83,7 +83,7 @@ python test_matching.py
 ## ランダム選好リスト
 
 ランダムに選好リストを生成する関数を書いたので必要があれば使ってみてください．  
-[matching_tools.py](https://github.com/oyamad/matching/blob/master/matching_tools.py)
+[matching_tools.py](https://github.com/oyamad/matching/blob/4e766839782aa2edf00d93620ca4d57cba7e667d/matching_tools.py)
 を作業フォルダにダウンロードする．
 
 * [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/master/random_prefs.ipynb)
@@ -91,4 +91,4 @@ python test_matching.py
 
 ## パフォーマンス比較の結果 (2015/6/22)
 
-[結果](http://nbviewer.ipython.org/github/OyamaZemi/exercises2015/blob/master/ex02/competition.ipynb)
+* [結果](http://nbviewer.ipython.org/github/OyamaZemi/exercises2015/blob/master/ex02/competition.ipynb)
