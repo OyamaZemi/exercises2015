@@ -86,7 +86,7 @@ python test_matching.py
 [matching_tools.py](https://github.com/oyamad/matching/blob/4e766839782aa2edf00d93620ca4d57cba7e667d/matching_tools.py)
 を作業フォルダにダウンロードする．
 
-* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/master/random_prefs.ipynb)
+* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/4e766839782aa2edf00d93620ca4d57cba7e667d/random_prefs.ipynb)
 
 
 ## パフォーマンス比較の結果 (2015/6/22)
