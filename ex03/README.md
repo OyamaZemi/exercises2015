@@ -84,3 +84,11 @@ np.cumsum(caps, out=indptr[1:])
 作業フォルダにダウンロード，これが通るようにコードを書いていく．
 
 (test_matching.py を修正しました．2015/6/23)
+
+
+## ランダム選好リスト (2015/6/29)
+
+[matching_tools.py](https://github.com/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/matching_tools.py)
+をランダムな `caps` も返すように拡張しました．
+
+* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/random_prefs.ipynbb)
