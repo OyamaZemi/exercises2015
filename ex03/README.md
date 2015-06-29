@@ -79,7 +79,7 @@ np.cumsum(caps, out=indptr[1:])
 
 ## 単体テスト
 
-[test_matching.py](https://github.com/oyamad/matching/blob/2c26eeddf4f627116f0000384107e68767467f4e/test_matching.py)
+[test_matching.py](https://github.com/oyamad/matching/blob/035ca753748f9358fe365f0a3c58c14508d89e1f/test_matching.py)
 に多対一マッチング用のテストを加えました．
 作業フォルダにダウンロード，これが通るようにコードを書いていく．
 
