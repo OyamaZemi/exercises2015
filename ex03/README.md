@@ -91,4 +91,4 @@ np.cumsum(caps, out=indptr[1:])
 [matching_tools.py](https://github.com/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/matching_tools.py)
 をランダムな `caps` も返すように拡張しました．
 
-* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/random_prefs.ipynbb)
+* [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/random_prefs.ipynb)
