@@ -76,6 +76,41 @@ np.cumsum(caps, out=indptr[1:])
 
 で作ることができます．
 
+### 補足 (2015/7/4)
+
+`caps` あるなしで `indptr` の定義を変える，あるいは `caps` あるなしで
+return するもの変えるのは，たとえば次のようにするとできます．
+
+```python
+def deferred_acceptance(prop_prefs, resp_prefs, caps=None):
+    ...
+
+    if caps is None:
+        indptr = np.arange(num_resps+1)
+    else:
+        indptr = np.empty(n+1, dtype=int)
+        indptr[0] = 0
+        np.cumsum(caps, out=indptr[1:])
+
+    ...
+
+    if caps is None:
+        return prop_matches, resp_matches
+    else:
+        return prop_matches, resp_matches, indptr
+```
+
+`caps` が `None` のときは `caps` を定義せずに `indptr` をメインのループで使うことにして，
+最後の `if` 文で `caps` が `None` であるかの判定に使えるようにしています．
+
+ちなみに，一番最後の `else` はなくてもよいです．
+
+```python
+    if caps is None:
+        return prop_matches, resp_matches
+    return prop_matches, resp_matches, indptr
+```
+
 
 ## 単体テスト
 
