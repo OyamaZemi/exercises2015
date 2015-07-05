@@ -86,7 +86,7 @@ def deferred_acceptance(prop_prefs, resp_prefs, caps=None):
     ...
 
     if caps is None:
-        indptr = np.arange(num_resps+1)
+        indptr = np.arange(n+1)
     else:
         indptr = np.empty(n+1, dtype=int)
         indptr[0] = 0
@@ -102,6 +102,8 @@ def deferred_acceptance(prop_prefs, resp_prefs, caps=None):
 
 `caps` が `None` のときは `caps` を定義せずに `indptr` をメインのループで使うことにして，
 最後の `if` 文で `caps` が `None` であるかの判定に使えるようにしています．
+
+(ここで `n` は大学 (respondants) の数です．自分のコードでは適切な変数名に書きかえる．)
 
 ちなみに，一番最後の `else` はなくてもよいです．
 
