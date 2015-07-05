@@ -9,7 +9,7 @@ Kandori-Mailath-Rob (KMR) の確率進化モデルのシミュレーションを
 
 ## 準備
 
-[quant-econ](http://quant-econ.net/py/) の
+[quant-econ.net](http://quant-econ.net/py/index.html) の
 * [Finite Markov Chains](http://quant-econ.net/py/finite_markov.html) を読む．
 * [Object Oriented Programming](http://quant-econ.net/py/python_oop.html) を読む．
 
@@ -70,12 +70,12 @@ pip install git+https://github.com/QuantEcon/QuantEcon.py.git@dev_mc_tools
 
 ## 発展
 
-* 3x3 ゲームもやってみる．
+3x3 ゲームもやってみる．
 
-  Young の例というのが有名：
+Young の例というのが有名：
 
-  ```python
-  [[6, 0, 0],
-   [5, 7, 5],
-   [0, 5, 8]]
-  ```
+```python
+[[6, 0, 0],
+ [5, 7, 5],
+ [0, 5, 8]]
+```
