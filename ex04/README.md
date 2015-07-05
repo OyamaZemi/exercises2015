@@ -56,7 +56,8 @@ Kandori-Mailath-Rob (KMR) の確率進化モデルのシミュレーションを
 
 ## QuantEcon.py の開発バージョンのインストール
 
-いま現在，interface の変更が議論されていますが，まだ `master` にマージされていないので，
+いま現在，`MarkovChain.simulate()` の
+interface の変更が議論されていますが，まだ `master` にマージされていないので，
 先取りして開発バージョンをインストールしましょう．
 
 ターミナルで
