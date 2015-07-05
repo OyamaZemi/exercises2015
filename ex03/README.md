@@ -126,7 +126,7 @@ def deferred_acceptance(prop_prefs, resp_prefs, caps=None):
 ## ランダム選好リスト (2015/6/29)
 
 ランダムな `caps` も返すように
-[matching_tools.py](https://github.com/oyamad/matching/blob/many-to-one/matching_tools.py)
+[matching_tools.py](https://github.com/oyamad/matching/blob/master/matching_tools.py)
 の `random_prefs` を拡張しました．
 
 * [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/random_prefs.ipynb)
