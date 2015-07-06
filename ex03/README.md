@@ -130,3 +130,8 @@ def deferred_acceptance(prop_prefs, resp_prefs, caps=None):
 の `random_prefs` を拡張しました．
 
 * [使用例](http://nbviewer.ipython.org/github/oyamad/matching/blob/62f8a46bb23727095b8faa9a49ca3a1fad2ebbdb/random_prefs.ipynb)
+
+
+## パフォーマンス比較の結果 (2015/7/6)
+
+* [結果](http://nbviewer.ipython.org/github/OyamaZemi/exercises2015/blob/master/ex03/competition_many_to_one.ipynb)
