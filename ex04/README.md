@@ -6,12 +6,17 @@ Kandori-Mailath-Rob (KMR) の確率進化モデルのシミュレーションを
 * 提出方法：GitHub にリポジトリを「プッシュ」する．
 * 締め切り：7月16日 (金)
 
+(4年生は昨年度自分が書いたコードに手を入れ，1年間で進化したところを見せる．)
+
 
 ## 準備
 
 [quant-econ.net](http://quant-econ.net/py/index.html) の
-* [Finite Markov Chains](http://quant-econ.net/py/finite_markov.html) を読む．
-* [Object Oriented Programming](http://quant-econ.net/py/python_oop.html) を読む．
+
+* [Finite Markov Chains](http://quant-econ.net/py/finite_markov.html)
+* [Object Oriented Programming](http://quant-econ.net/py/python_oop.html)
+
+を読む．
 
 
 ## KMR モデル
