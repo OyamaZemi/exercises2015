@@ -92,3 +92,19 @@ Young の例というのが有名：
 テンプレートを作ったので参考にしてください．
 
 * [kmr.py](kmr.py)
+
+
+## 注意
+
+われわれが使っている Python バージョン 2.x では，整数どうしの割り算は小数点以下が切り捨てられて整数になります．
+たとえば `1/2` を `0.5` と計算させたければ，ファイルの冒頭で
+
+```python
+from __future__ import division
+```
+
+と宣言しないといけません．
+
+たとえば
+[Python Essentials](http://quant-econ.net/py/python_essentials.html)
+参照のこと．
