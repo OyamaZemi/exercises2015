@@ -55,8 +55,7 @@ Kandori-Mailath-Rob (KMR) の確率進化モデルのシミュレーションを
 
 * 最終的には自分でクラス (`KMR` とか) を定義して使ってみる．
 
-* 完成品はたとえば[こんな感じ](http://nbviewer.ipython.org/github/oyamad/stochevolution/blob/57738da63f608cfd27d30c6a446ecd4afc48a39d/KMR_2x2_example.ipynb)．
-  (ただし，これはかなり改善の余地あり．)
+* 完成品はたとえば[こんな感じ](http://nbviewer.ipython.org/github/oyamad/stochevolution/blob/master/KMR2x2_example.ipynb)．
 
 
 ## QuantEcon.py の開発バージョンのインストール
@@ -85,6 +84,22 @@ Young の例というのが有名：
  [5, 7, 5],
  [0, 5, 8]]
 ```
+
+Bilingual game:
+
+```python
+def bilingual_game(e, a=11, b=0, c=3, d=10):
+    payoff_matrix = np.array([[a  , a  , b],
+                              [a-e, a-e, d-e],
+                              [c  , d  , d]])
+    return payoff_matrix
+```
+
+`e` を 2.5 くらいから 0 の近くまで小さくしていって標本経路や定常分布の変化の様子を観察する．
+
+* D. Oyama and S. Takahashi,
+  "[Contagion and Uninvadability in Local Interaction Games: The Bilingual Game and General Supermodular Games](http://www.oyama.e.u-tokyo.ac.jp/papers/bilingual.html),"
+  Journal of Economic Theory 157 (2015), 100-127.
 
 
 ## テンプレート
