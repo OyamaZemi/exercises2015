@@ -64,13 +64,17 @@ Kandori-Mailath-Rob (KMR) の確率進化モデルのシミュレーションを
 interface の変更が議論されていますが，まだ `master` にマージされていないので，
 先取りして開発バージョンをインストールしましょう．
 
+(2015/8/27追記)
+`master` にマージされました．
+
 ターミナルで
 
 ```
-pip install git+https://github.com/QuantEcon/QuantEcon.py.git@dev_mc_tools
+pip install git+https://github.com/QuantEcon/QuantEcon.py.git
 ```
 
 と打ちます．
+(すでにインストールしている場合は `-U` を加える．)
 
 
 ## 発展
