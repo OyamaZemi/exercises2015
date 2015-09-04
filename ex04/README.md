@@ -67,14 +67,16 @@ interface の変更が議論されていますが，まだ `master` にマージ
 (2015/8/27追記)
 `master` にマージされました．
 
+(2015/9/4追記)
+リリースされました (version 0.1.10 かそれ以降)
+
 ターミナルで
 
 ```
-pip install git+https://github.com/QuantEcon/QuantEcon.py.git
+pip install quantecon -U
 ```
 
-と打ちます．
-(すでにインストールしている場合は `-U` を加える．)
+と打ってアップデートします．
 
 
 ## 発展
